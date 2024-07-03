@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Challenge_2</title>
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <p>My first web page.</p>
+    <script>
+    let alphabet = "abcdefghijklmnopqrstuvwxyz";
+    let randomString = "";
+    let stringLength = 6;
+
+    for (let i = 0; i < stringLength; i++) {
+      randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+    }
+
+    console.log(randomString);
+    </script>
+
+<!-- function generateRandomString(length) {
+  let alphabet = "abcdefghijklmnopqrstuvwxyz";
+  let randomString = "";
+  let stringLenght = 6;
+
+
+  while (randomString.length < length) {
+      let randomIndex = Math.floor(Math.random() * alphabet.length);
+      randomString += alphabet[randomIndex];
+  }
+
+  return randomString;
+}
+
+// Example usage:
+let randomStr = generateRandomString(6);
+console.log(randomStr);  // Output a random 6-character string -->
+
+</body>
+</html>
