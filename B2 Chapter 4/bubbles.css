@@ -1,0 +1,28 @@
+#o {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bubble {
+  border: 2px dashed #000000;
+  display: block;
+  position: absolute;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+body {
+  background-color: #c0c0c0;
+}
+
+h1 {
+  color: #ff00ff;
+}
+
+p {
+  color: #ff00ff;
+}
